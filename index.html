@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alessandra Froelich - Psychologue</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar-->
+        <nav>
+            <ul class="header-menu">
+                <li class="menu-item" id="menu-about">À propos de moi</li>
+                <li class="menu-item" id="menu-approach">Mon approche</li>
+                <li class="menu-item" id="menu-services">Services</li>
+                <li class="menu-item" id="menu-contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- main content, all the sections are listed here-->
+    <main id="content">
+        <!-- À propos de moi-->
+        <section class="grid-area" id="about">
+            <h1>À propos de moi</h1>
+            <p>Text 1</p>
+        </section>
+
+        <!-- Mon approche -->
+        <section id="approach">
+            <h1>Mon approche</h1>
+            <p>Text 2</p>
+        </section>
+
+        <!-- Services -->
+        <section id="services">
+            <h1>Services</h1>
+            <p>Text 3</p>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Text 4</p>
+        </section>
+        <section id="form">
+            <form class="contact-form" action="contactform.php" method="POST"></form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Write Your Message" id="msg-area" cols="30" rows="10"></textarea>
+            <button type="submit" name="submit">SEND MESSAGE</button>
+        </section>
+    </main>
+   
+</body>
+</html>

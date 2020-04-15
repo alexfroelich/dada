@@ -1,0 +1,29 @@
+.header-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.menu-item{
+    color: black;
+}
+
+.menu-item:hover{
+    color: white;
+    background-color: black;
+}
+
+.selected{
+    display: grid;
+}
+section{
+    display: grid;
+}
+
+#form{
+    width: 100%;
+    justify-content: center;
+    margin: 5%;
+    padding: 10%;
+}
+
