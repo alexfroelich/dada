@@ -4,9 +4,9 @@
         $subject = $_POST['subject'];
         $message = $_POST['messsage'];
 
-        $mailTo = "alexfroelich05@gmail.com";
-        
+        $mailTo = "alexander.froelich@outlook.com";
+        echo "SENDING";
         mail($mailTo, $subject, $message, $name);
-        header("Location: index.php?mailsend");
+        header("Location: index.html");
     }
 ?>
