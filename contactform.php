@@ -4,7 +4,7 @@
         $subject ="Subject";
         $message ="Message";
 
-        $mailTo = "alexander.froelich@outlook.com";
+        $mailTo = "alexfroelich05@gmail.com";
         echo "SENDING";
         mail($mailTo, $subject, $message, $name);
      
